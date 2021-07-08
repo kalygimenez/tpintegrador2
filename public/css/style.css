@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header{
+    background-color: #fff159;
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    text-align: center;
+    }
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+}
+.hamburger-botton {
+ background-color: blue;
+ color: white;
+ display: block;  
+ max-width: 50px;
+ padding: 15px 0; 
+ border-radius: 8px;
+ text-align: center;
+ font-size: 18px;
+ margin: auto;
+}
+.main-nav-bar {
+    display: none;
+}
+.main-nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-nav-bar a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+@media (min-width: 768px){
+    .main-header-top-bar {
+        /*border: dotted 2px red;*/
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburger-botton {
+        display: none;
+    }
+    .main-nav-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-nav-bar ul {
+        display: flex;
+    }
+    .main-nav-bar li {
+        margin: 0 5px;
+    }
+}
+/*  medias */ 
+@media (min-width:1200px){
+    .main-header-top-bar, .main-nav-bar {
+        max-width: 1200px;
+        margin: auto;
+        font-weight: bold;
+    }
+    .main-nav-bar li {
+        margin: 0 10px;
+    }
+    .main-nav-bar a {
+    margin: 0 10px;
+    }
+    .main-nav-bar {
+        margin-top: 50px;
+    }
+    .copy-header {
+        max-width: none;
+        font-size: 30px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+}
+section.banner img{
+    width: 100%;
+    text-align: center;
+}
+
+.descripArt {
+    font-size: 18px;
+    font-weight:bolder;
+}
+.ultimasVisitas {
+    width: 100%;
+    margin-bottom: 10px;
+    border: solid 5px tomato;
+    border-top: solid 1px #afadb8;
+    background-color: rgb(212, 203, 203);
+    text-align: center;
+    padding: 30px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 5p yellowgreen;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.imagenArt {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 5p yellowgreen;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+h2 {
+margin: 20px 0px;
+margin-top: auto;
+text-align: center;
+border: orangered;
+}
+.etiOffArt {
+    color: green;
+    text-align:left;
+}
+.productos, img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.etiPreArt {
+    font: 18px;     
+}
+
+.descripArt {
+    color: black;
+    text-align:left; 
+}
+/*
+
+.detalle {
+    /*width: 90vw;*//*
+    margin-bottom: 10px;
+    border-top: solid 1px rgb(45, 53, 126);
+    background-color: rgb(219, 223, 209); 
+    padding: 30px 5px 1px;  
+}
+.imagen { */
+    /* width: 90vw;*//*
+    margin-top: 30px;
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    text-align: center;  
+    padding: 15px; 
+}
+.bxsha{
+    box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+}
+logis {
+    color: green;
+    text-align:left;
+}
+input {
+        margin-left: 40px;
+}
+
+h1{
+    font-size: 24px;
+}
+h2 {
+    text-align: center;
+}
+*/
+
+
+
+footer {
+    background-color: white;    
+    color:#666;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+/*aca agrego el boton de wasap en el css */
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        right:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+      font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+      z-index:100;
+    }
+    .float:hover {
+        text-decoration: none;
+        color: #25d366;
+      background-color:#fff;
+    }
+    
+    .my-float{
+        margin-top:16px;
+    }
+/*aca termino de agregar el boton de wasap en el css */    
