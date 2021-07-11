@@ -6,6 +6,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+input {
+    display: flex;
+    color: burlywood;
+}
+
+
+button:hover {
+    background-color:blueviolet;
+    border: none;
+    color: brown;
+
+}
+
 .main-header{
     background-color: #fff159;
     padding: 20px;
@@ -45,6 +58,52 @@ body {
     padding: 5px 0;
     font-size: 17px;
 }
+#truck {
+    color: green;
+}
+p {
+    text-align: center;
+}
+.titlelogin {
+    text-decoration:darkgoldenrod;
+    font-size: 15px;
+    font-weight: bold;
+}
+#truck:hover {
+    transform: rotate(-45deg);
+}
+.detalleArt {
+    background-color: white;
+}
+.imagenArt {
+    background-color:  white;
+}
+form {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    padding: solid 5px black;
+    background-color: #99d4fc;
+    }
+
+    .pantalladivididalogin {
+    display: flex;
+    margin: auto;
+    background-image: url(/images/fondologin.jpg);
+    background-size: cover;
+    } 
+    .formlogin {
+    display: flex;
+    margin: auto;
+    }
+    .imagenlogin {
+    display: flex;
+    margin: auto;
+    } 
+
 
 @media (min-width: 768px){
     .main-header-top-bar {
@@ -104,27 +163,44 @@ section.banner img{
 .descripArt {
     font-size: 18px;
     font-weight:bolder;
+    text-align: center;
+    color: black;
 }
 .ultimasVisitas {
-    width: 100%;
+    width: 100vp;
     margin-bottom: 10px;
-    border: solid 5px tomato;
-    border-top: solid 1px #afadb8;
     background-color: rgb(212, 203, 203);
     text-align: center;
     padding: 30px 5px 5px;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
 } 
+.ofertas {
+    width: 100vp;
+    margin-bottom: 10px;
+    background-color: rgb(212, 203, 203);
+    text-align: center;
+    padding: 30px 5px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+} 
+article {
+    border: solid 5px black;
+}
 
 .article {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     border: solid 5p yellowgreen;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
 }
+/*
 .imagenArt {
     width: 100%;
     display: flex;
@@ -132,6 +208,12 @@ section.banner img{
     border: solid 5p yellowgreen;
     justify-content: space-between;
     align-items: baseline;
+}
+*/
+
+
+article:hover {
+    box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
 }
 
 h2 {
@@ -142,21 +224,20 @@ border: orangered;
 }
 .etiOffArt {
     color: green;
-    text-align:left;
+    text-align:center;
 }
-.productos, img{
+/* .productos, img{
     display: flex;
     flex-wrap: wrap;
-}
+    justify-content: center;
+}*/
 
 .etiPreArt {
     font: 18px;     
 }
 
-.descripArt {
-    color: black;
-    text-align:left; 
-}
+
+
 /*
 
 .detalle {
