@@ -8,10 +8,25 @@ body {
 
 input {
     display: flex;
+    width: 100%;
     color: burlywood;
 }
 
+t {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font: bold;
+}
 
+V {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font: bold;
+}
 button:hover {
     background-color:blueviolet;
     border: none;
@@ -61,9 +76,27 @@ button:hover {
 #truck {
     color: green;
 }
+.ingresadatosregister {
+    color: darkgoldenrod;
+}
 p {
     text-align: center;
 }
+r {
+    color: darkmagenta;
+}
+
+q { 
+    font-size: 22px;
+    color: blue;
+    padding: solid 5px red;
+    }
+    .categoriasregister {
+        text-align: center;
+        color: darkgrey;
+    }
+
+
 .titlelogin {
     text-decoration:darkgoldenrod;
     font-size: 15px;
@@ -235,8 +268,6 @@ border: orangered;
 .etiPreArt {
     font: 18px;     
 }
-
-
 
 /*
 
